@@ -1,0 +1,28 @@
+
+*{color: purple;
+}
+div {color: black}
+.alert-text{color: blue}
+#title{background-color: blue}
+.read,
+.unread {
+    color: white;
+    background-color: black;
+}
+.read {/* several unique declarations */}
+.unread {/* several unique declarations */}
+.subsection.header {color: red;}
+.subsection#preview {color: blue;}
+.ancestor .contents {
+    /* some declarations */}
+    h1 {color: #1100ff}
+    p {color: #00ff00}
+    p {background-color: #ff000080}
+p {background-color: #ff000065}
+p {background-color: #ff000040}
+p {background-color: #00ff0060}
+p {background-color: rgb(255, 0, 0)}
+p {background-color: rgba(0, 255, 0, 0.3)}
+div {background-color: hsl(240, 100%, 70%)}
+div {background-color: hsla(240, 70%, 40%, 0.5)}
+#mydiv {color: blue; border: 10px solid currentcolor;}
